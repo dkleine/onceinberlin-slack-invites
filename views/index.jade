@@ -13,6 +13,7 @@ html
           h1
             strong #{community}
           h2 #{__('HEADER', community)}
+          p #{__('CONTACT_TEXT')} #[a(__'CONTACT_EMAIL') Request Invite]
         .content
           .information
             form(method="POST", action="/invite")#join-form.form
