@@ -13,7 +13,7 @@ html
           h1
             strong #{community}
           h2 #{__('HEADER', community)}
-          p #{__('CONTACT_TEXT')} #[a(href#{(__'CONTACT_EMAIL')}) Request Invite]
+          p #{__('CONTACT_TEXT')} #[a(href="mailto:onceinberlin@yandex.com?subject=Request+Invite") request an invite]
         .content
           .information
             form(method="POST", action="/invite")#join-form.form
