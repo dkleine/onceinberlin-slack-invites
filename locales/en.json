@@ -1,5 +1,5 @@
 {
-  "HEADER": "Enter your email below to join %s on Slack!",
+  "HEADER": "%s is a dynamically growing community of people who once met in, you guessed it, Berlin. Our goal is to help you keep in touch with each other and keep on being awesome together. This can mean anything from exchanging useful bits of information to hanging out and having a drink together once in a while.",
   "ENTER_EMAIL": "Enter Your Email Address",
   "ENTER_TOKEN": "Enter the invite token you were given",
   "TITLE": "Join the %s community on Slack!"
