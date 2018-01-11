@@ -23,6 +23,7 @@ html
               input(type="submit", value="Join").submit
               if !!recaptchaSiteKey
                 div(class="g-recaptcha", data-sitekey="#{recaptchaSiteKey}")
+            img(src="badge.svg" alt="users")
     if !!recaptchaSiteKey
        script(src='https://www.google.com/recaptcha/api.js')
     script.
